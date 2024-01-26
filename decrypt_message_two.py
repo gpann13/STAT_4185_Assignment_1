@@ -4,4 +4,3 @@ encrypted_message = encrypted_file.readline()
 
 encrypted_file.close()
 
-# Write Code Here
