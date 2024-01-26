@@ -47,6 +47,8 @@ def flip_cipher(cipher):
         flipped_cipher[cipher[key]] = key
     return flipped_cipher
 
+## Decodes encrypted message using the flipped cipher
+## Pullls each character from the encrypted message and checks if it is in the flipped cipher
 def decode(code):
     decrypted_message = ""
     for char in encrypted_message:
